@@ -68,7 +68,7 @@ async def on_guild_channel_create(channel):
 # https://discord.gg/6pCbgbYWM7
  
     for i in range(10):
-        messages = ["GOT BOMBED 💣💣💣", "N$KE COMMUNITY ON TOP | https://discord.gg/6pCbgbYWM7", "YOU GOT N$KED IN YEAR 2024 😂"]
+        messages = ["GOT BOMBED 💣💣💣", "Wizard COMMUNITY ON TOP | https://discord.gg/6pCbgbYWM7", "YOU GOT N$KED IN YEAR 2024 😂"]
         random_message = random.choice(messages)
         try:
             await channel.send(f"{random_message} ||@everyone||")
@@ -83,5 +83,6 @@ if __name__ == "__main__":
     except discord.errors.LoginFailure:
         printMessage(f"Invalid token.")
         exit()
+
 
 # https://discord.gg/6pCbgbYWM7
